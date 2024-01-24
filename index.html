@@ -1,36 +1,441 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang = "en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Davis-Portfolio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Style Switcher-->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1"disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2"disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3"disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4"disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5"disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+
+
 </head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
+<body class="dark">
+    <!--Main Container Start-->
+    <div class="main-container">
+        <!--Side bar Start-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>Davis Golovins</span></a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#interest"><i class="fa-solid fa-heart"></i> Interest</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
 
-    <!-- Add sections for About Me, Projects, Skills, etc. -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>Your introduction goes here.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Add information about your projects here -->
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <!-- List your skills here -->
-    </section>
-
-    <!-- Add more sections as needed -->
-
-    <footer>
-        <p>Contact: your@email.com</p>
-    </footer>
+            </ul>
+            
+        </div>
+        <!--Side bar End-->
+        <!--Content Start-->
+        <div class="main-content">
+            <!--Home Start-->
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, my name is <span class="name">Davis Golovins</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Digital Artist</span></h3>
+                            <p>I'm a 21-year-old student from Ireland, currently in my fourth year of studying Software Development at the South East Technological University (SETU). I have a passion for technology and problem-solving, and I’m always eager to apply my skills to real-world challenges. Feel free to explore my work and get in touch!</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="images/Portrait.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Home End-->
+            <!--About Section Start-->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Here is more <span>Info</span></h3>
+                                    <p>I am currently in my final year of study at the South East Technological University in Carlow, where I am pursuing a degree in Interactive Digital Art and Design. I am expected to graduate in September 2024.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>3 January 2002</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>23</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website : <span>this Website</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>davisgolovins@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>Bachelor of Science in Interactive Digital Art and Design</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+353 089 2096471</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Waterford, Ireland</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Download CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Web Design</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Adobe Softwares</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Methodologies</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Teamwork</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="row">
+                            <div class="education padd-15">
+                                <h3 class="title">Education</h3>
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!-- ===== timeline ===== -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2021 - Current
+                                                </h3>
+                                                <h4 class="timeline-title">Bachelor of Science in Interactive Digital Art and Design, SETU carlow.</h4>
+                                                <p class="timeline-text">- In Progress (Year 3), Subjects including (2D and 3D animation, Character Rigging, Poster Prototyping Design, Business Processes, UI Programming, User Experience Measurement. )</p><br>
+                                                <p class="timeline-text">- GPA 54.91% (Year 2), Subjects including (Web Programming, Graphic Design, User Interface Desig, Digital Product Prototyping, Project Management, Design Psychology ).</p><br>
+                                                <p class="timeline-text">- GPA 50.16% (Year 1), Subjects including (Mathematics, 2D Concept Art, Programming, Digital Media Production, Texture Painting).</p>
+                                            </div>
+                                             <!-- ===== timeline ===== -->
+                                             <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2015 - 2021
+                                                </h3>
+                                                <h4 class="timeline-title">Leaving Certificate, St. Mary's Academy CBS</h4>
+                                                <p class="timeline-text">- Subjects including (English, irish, Design Communication Graphics, Mathematics, Art, Technology, Programming.)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience padd-15">
+                                <h3 class="title">Experience</h3>
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!-- ===== timeline ===== -->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2023 - 2023
+                                                </h3>
+                                                <h4 class="timeline-title">SunLife Internaional, Internship</h4>
+                                                <p class="timeline-text">- Document Imaging, Managing Documents, Excel Management, Communication with Distributors and other departments, Process Documents in extreme Time sensetive nature.</p>
+                                            </div>
+                                             <!-- ===== timeline ===== -->
+                                             <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2022 - 2022
+                                                </h3>
+                                                <h4 class="timeline-title">Proserve Solutions. </h4>
+                                                <p class="timeline-text">- Design and paint large chain organisations. Timekeeping Skills, Attention to Detail, Graphic Design Skills, Teamwork and Organisation Skills.
+                                                </p>
+                                            </div>
+                                             <!-- ===== timeline ===== -->
+                                             <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i>  2020-2020
+                                                </h3>
+                                                <h4 class="timeline-title">Work Experience</h4>
+                                                <p class="timeline-text">- Retail Experience, Customer service, Processes Transactions, Maintained Shop Floor, Helped with managing inventory, Communication Skills.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--About Section End-->
+            <!--Interest Section Start-->
+            <section class="interest section" id="interest">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Interest</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--Interest item Start-->
+                        <div class="interest-item padd-15">
+                            <div class="interest-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Game Development</h4>
+                                <p>I'm passionate about game development, creating engaging, interactive games with compelling designs. I specialize in mobile and AR/VR gaming, ensuring bug-free launches and continuous updates for an engaging gaming experience.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Interest item End-->
+                        <!--Interest item Start-->
+                        <div class="interest-item padd-15">
+                            <div class="interest-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Data Analysis</h4>
+                                <p>I have a keen interest in data analysis. I enjoy the process of cleaning and exploring data, conducting statistical analysis, and creating predictive models. I find satisfaction in visualizing data in a way that uncovers insights and aids in decision making.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Interest item End-->
+                        <!--Interest item Start-->
+                        <div class="interest-item padd-15">
+                            <div class="interest-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Graphic Design</h4>
+                                <p>Graphic design is another area I am passionate about. I take pride in creating visually appealing and effective designs, whether it’s a logo for a startup, branding for a product, print design for marketing materials, or digital design for websites and apps.
+                                </p>
+                                <p>  
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <!--Interest item End-->
+                        <!--Interest item Start-->
+                        <div class="interest-item padd-15">
+                            <div class="interest-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-gamepad"></i>
+                                </div>
+                                <h4>Competitive Gaming</h4>
+                                <p>I'm deeply interested in online gaming, especially those with competitive ranking systems. The thrill of climbing the ranks and improving my skills is a challenge I thoroughly enjoy. The strategic thinking, quick decision-making, and teamwork often required in these games are aspects that keep me engaged and continuously striving for progress.
+                                </p>
+                            </div>
+                        </div>
+                        <!--Interest item End-->
+                    </div>
+                </div>
+            </section>
+            <!--Interest Section End-->
+            <!--Portfolio Section Start-->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--portfolio item start-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shower-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://proj-86865.web.app/#/" target="_blank">
+                                        <img src="images/portfolio/portpic.001.jpeg" alt="Description of the image">
+                                    </a>                      
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shower-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/Samuelmkchoy/Ramdom_Forests/" target="_blank">
+                                        <img src="images/portfolio/portpic.002.jpeg" alt="Description of the image">
+                                    </a>                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shower-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://github.com/Samuelmkchoy/Ramdom_Forests/" target="_blank">
+                                        <img src="images/portfolio/portpic.003.jpeg" alt="Description of the image">
+                                    </a>                        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--portfolio item end-->
+                    </div>
+                </div>
+            </section>
+            <!--Portfolio Section End-->
+            
+            <!--Contact Section Start-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div> 
+                    <h3 class="contact-title padd-15">Have You Any Question ?</h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+                        <!--Contact infor item start-->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+353 089 2096471</p>
+                        </div>
+                        <!--Contact infor item end-->
+                         <!--Contact infor item start-->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>davisgolovins.com</p>
+                        </div>
+                        <!--Contact infor item end-->
+                         <!--Contact infor item start-->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <h4>LinkedIn</h4>
+                            <p>https://www.linkedin.com/in/davis-golovins-b05b8023a/</p>
+                        </div>
+                        <!--Contact infor item end-->
+                         <!--Contact infor item start-->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-github"></i></i></i></div>
+                            <h4>Github</h4>
+                            <p>https://github.com/DavisGolovins</p>
+                        </div>
+                        <!--Contact info item end-->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+                    <!--Contact Form-->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                   <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Contact Section End-->
+        </div>
+        <!--Content End-->
+    </div>    
+    <!--Main Container End-->
+    <!--Style Switcher Start-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>        
+    </div>
+    <!--Style Switcher End-->
+    <!--JS-->
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+    
 </body>
 </html>
